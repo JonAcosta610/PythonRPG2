@@ -2,9 +2,9 @@ from hercules import Hercules
 from zombie import Zombie
 from lernaean import Lernaean
 
-# print("You are Hercules, the greatest of the Greek Heroes!")
-# print("You have been tasked by King Eurystheus to slay the vicious Nemean Lion!")
-# print("Defeat the impossible nine-headed Lernaean Hydra, and capture the guard dog of the underwordl")
+print("You are Hercules, the greatest of the Greek Heroes!")
+print("You have been tasked by King Eurystheus to slay the vicious Nemean Lion!")
+print("Defeat the impossible nine-headed Lernaean Hydra, and capture the guard dog of the underworld-Cerberus")
 
 hercules_adventure = Hercules()
 lernaeans_minions = Zombie()

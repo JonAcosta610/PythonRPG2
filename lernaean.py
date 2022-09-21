@@ -1,8 +1,10 @@
 class Lernaean:
 
     def __init__(self):
-        self.health_bar = 500
-        self.scratch = 10
-        self.bite = 15
-        self.kick = 20
-        self.squeeze = 25
+        self.health_bar = 100
+        self.attack_stat = 150
+        self.defense_stat = 150
+        self.snarl = 30
+        self.bite = 35
+        self.kick = 40
+        self.squeeze = 45
