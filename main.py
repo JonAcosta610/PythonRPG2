@@ -1,10 +1,14 @@
-from rpg import Rpg
+from hercules import Hercules
+from zombie import Zombie
+from lernaean import Lernaean
 
 # print("You are Hercules, the greatest of the Greek Heroes!")
 # print("You have been tasked by King Eurystheus to slay the vicious Nemean Lion!")
 # print("Defeat the impossible nine-headed Lernaean Hydra, and capture the guard dog of the underwordl")
 
-hercules_adventure = Rpg()
+hercules_adventure = Hercules()
+lernaeans_minions = Zombie()
+lernaean_hydra = Lernaean()
 
 # Camera fades onto the city of Athens, where villagers are running and screaming down the main city path.
 # The great Nemean Lion has dispatched zombie like minions onto the city.
@@ -13,3 +17,5 @@ hercules_adventure = Rpg()
 # As Hercules travels through Athens he can find various items that will regain his health
 
 print(hercules_adventure.health_bar)
+print(lernaeans_minions.health_bar)
+print(lernaean_hydra.health_bar)
