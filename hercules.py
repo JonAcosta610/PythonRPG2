@@ -1,4 +1,5 @@
-
+hercules_stats = {["health": 100, "attack": 100, "defense": 100], ["number_of_potions": 5, "potion_amount": 20], 
+["quick_attack": 20, "mega_punch": 30, "mega_kick": 35, "sword_slash": 40]}
 
 class Hercules:
 
